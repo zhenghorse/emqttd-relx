@@ -36,6 +36,9 @@ dep_emq_plugin_template = git https://github.com/emqtt/emq_plugin_template maste
 dep_emq_sn 	= git https://github.com/emqtt/emq_sn master
 dep_emq_coap = git https://github.com/emqtt/emq_coap master
 
+# kafka bridge
+dep_emq_plugin_kafka   = git https://github.com/emqtt/emq_kafka_bridge master
+
 # COVER = true
 
 include erlang.mk
